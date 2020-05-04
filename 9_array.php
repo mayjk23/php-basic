@@ -8,7 +8,18 @@
 <body>
 
     <?php
-    //ตัวแปรหนึ่งตัว ที่เก็บค่าหลายๆ ตัว เป็นกลุ่ม
+
+    $name = array("Red", "Green", "Blue");
+
+    echo $name[1];   //แสดงข้อมูลเฉพาะตำแหน่งที่ 1
+    echo "<br>";
+    print_r($name);  //แสดงข้อมูลใน array ทั้งหมด
+    echo "<br>";
+
+    //นำข้อมูลตัวแปร array ไปใส่เป็นตัวแปรใช้ foreach วนแสดงผล
+    foreach ($name as $nameshowall) {
+        echo "$nameshowall <br>";
+    }
 
 
 
