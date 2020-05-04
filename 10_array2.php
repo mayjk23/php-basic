@@ -11,7 +11,7 @@
 
     $name = array("THAI", "KOREA", "CHINA");
 
-    $country=array
+
     echo "<br>";
 
 
