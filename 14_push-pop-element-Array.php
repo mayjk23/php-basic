@@ -21,3 +21,9 @@ echo "<hr>";
 array_pop($animal);
 print_r($animal);
 echo "<hr>";
+
+
+
+
+
+

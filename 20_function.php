@@ -1,12 +1,20 @@
 <?php
-function random_number()
+
+function summation($var1, $var2)
 {
-    for ($i = 1; $i <= 10; $i++) {
-        $sum เระ+= rand(1, 20) . "<br>";
-    }
-    echo "ผลรวม=" . $sum;
+    return $var1 + $var2;;
 }
 
+function sum2($var1)
+{
+    $sum = 0;
+    for ($i = 0; $i < count($var1); $i++) {
+        $sum += $var1[$i];
+    }
+    return $sum;
+}
+$varsum = summation(10, 50);
+echo "ผลรวม=" . $varsum . "<br>";
 
-echo "แสดงผลลัพธ์<br>";
-random_number();
+$summation = sum2(array(10, 209, 22, 22, 3232, 2323));
+echo "ผลรวมของการบวก Array=" . $summation;
